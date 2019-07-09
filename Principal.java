@@ -39,8 +39,6 @@ public class Principal {
          
          
     }
-}
-	
 	private static ArrayList<Beneficiario> ordenarArquivo(File arquivo) throws IOException{ 
 
     ArrayList<Beneficiario> listaBeneficiarios = new ArrayList<Beneficiario>();
@@ -71,7 +69,10 @@ public class Principal {
     Collections.sort(listaBeneficiarios, new ComparaComBeneficiario());
 
     return listaBeneficiarios;
-}		
+	}
+}
+	
+			
 
 
 
